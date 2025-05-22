@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkbox Alignment</title>
+    <style>
+      .container {
+        display: flex;
+        align-items: start;
+      }
+
+      dt {
+        font-weight: bold;
+        margin-right: 20px; /* Space between SUBJECTS: and checkboxes */
+      }
+
+      .checkbox-list {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .checkbox-list label {
+        display: flex;
+        align-items: center;
+        gap: 10px; /* Space between checkbox and text */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <dl>
+        <dt>SUBJECTS:</dt>
+        <dd class="checkbox-list">
+          <label><input type="checkbox" /> Option 1</label>
+          <label><input type="checkbox" /> Option 2</label>
+          <label><input type="checkbox" /> Option 3</label>
+        </dd>
+      </dl>
+    </div>
+  </body>
+</html>

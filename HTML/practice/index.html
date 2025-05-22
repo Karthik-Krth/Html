@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<!--Says the it is html5 version-->
+<html lang="en">
+<!--Root the html page and it says that it is in english language-->
+
+<head>
+  <!--Head conatins all the meta data and linking takes place here-->
+  <meta charset="UTF-8" />
+  <title>HTML practice</title>
+  <style>
+    body {
+      font-size: 28px;
+      padding-left: 50px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 10px;
+      text-align: center;
+      width: 60%;
+    }
+
+    th,
+    td {
+      padding: 10px;
+      margin: 10px;
+    }
+
+    th {
+      text-align: left;
+      background-color: rgb(240, 240, 240);
+    }
+  </style>
+</head>
+
+<body>
+  <big>Tim Berners lee </big>created html in 1991
+  <hr />
+  <button disabled>Submit</button>
+  <!-- <img
+      src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
+      alt=""
+      width="400px"
+      height="400px"z
+    /> -->
+  <a href=""></a>
+  CO<sub>2</sub>
+  (a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab
+  <pre>
+he  llo
+        b
+        y
+        e
+
+    </pre>
+  <a href="https://ww.google.com" target="_blank" download="sample" accesskey="g">Click here</a>
+  <address>this is my address</address>
+  <fieldset>
+    <legend>&#34;Name: &#34;</legend>
+    <label for="name">Enter the name : </label>
+  </fieldset>
+  &trade;
+  <div><code> #include&lt;stdio.h&gt; </code></div>
+  <q draggable="true">Learning html</q>
+  <blockquote>"this is html" and with css</blockquote>
+  <p draggable="" accesskey="q" contenteditable="true">hello guys..</p>
+  <table border="">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>class</th>
+        <th>Reg.no.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Krth</td>
+        <td rowspan="3">B.Tech</td>
+        <td>589</td>
+      </tr>
+      <tr>
+        <td>Murali</td>
+        <!-- <td>B.Tech</td> -->
+        <td>5C7</td>
+      </tr>
+      <tr>
+        <td>Sunny</td>
+        <!-- <td>B.Tech</td> -->
+        <td>574</td>
+      </tr>
+    </tbody>
+  </table>
+  <ol type="i">
+    <li>fruits</li>
+    <ul type="disc">
+      <li>banana</li>
+      <li>mango</li>
+    </ul>
+    <li>vegetables</li>
+    <li>Nuts</li>
+  </ol>
+  <dl>
+    <dt>C language</dt>
+    <dd>It is a procedural language</dd>
+    <dt>pythonn</dt>
+    <dd>It is a scripting language</dd>
+  </dl>
+  <form autocomplete="on">
+    <div>
+      <label for="Name">Name:</label>
+      <input type="text" id="Name" name="Name" required />
+    </div>
+
+    <div>
+      <label for="password">Enter password: </label>
+      <input type="password" name="password" id="password" required />
+    </div>
+    <div>
+      <label for="gender"></label>
+      <input type="radio" id="male" name="gender" value="male" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" />
+      <label for="female">Female</label>
+    </div>
+    <div>
+      <label for="reset">Reset</label>
+      <input type="reset" name="reset" id="reset" />
+    </div>
+    <div>
+      <label for="yes"> YES </label>
+      <input type="checkbox" name="yes" id="yes" />
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" />
+    </div>
+    <div>
+      <label for="datetime-local">Date and Time:</label>
+      <input type="datetime-local" id="datetime-local" name="datetime-local" />
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" />
+    </div>
+    <div>
+      <label for="file">File:</label>
+      <input type="file" id="file" name="file" />
+    </div>
+    <div>
+      <input type="hidden" id="hidden" name="hidden" value="hiddenValue" />
+    </div>
+    <div>
+      <label for="image">Image:</label>
+      <input type="image" id="image" name="image" src="https://via.placeholder.com/150" alt="Submit" />
+    </div>
+    <div>
+      <label for="month">Month:</label>
+      <input type="month" id="month" name="month" />
+    </div>
+    <div>
+      <label for="number">Number:</label>
+      <input type="number" id="number" name="number" />
+    </div>
+    <div>
+      <label for="range">Range:</label>
+      <input type="range" id="range" name="range" />
+    </div>
+    <div>
+      <label for="search">Search:</label>
+      <input type="search" id="search" name="search" />
+    </div>
+    <div>
+      <label for="tel">Telephone:</label>
+      <input type="tel" id="tel" name="tel" />
+    </div>
+    <div>
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" />
+    </div>
+    <div>
+      <label for="url">URL:</label>
+      <input type="url" id="url" name="url" />
+    </div>
+    <div>
+      <label for="week">Week:</label>
+      <input type="week" id="week" name="week" />
+    </div>
+    <div>
+      <label for="button">true</label>
+      <input type="button" name="button" id="button" />
+    </div>
+    <div>
+      <label for="color">Select your desired color</label>
+      <input type="color" name="color" id="color" />
+    </div>
+    <div>
+      <div>
+        <label for="submit"></label>
+        <input type="submit" id="submit" name="submit" />
+      </div>
+  </form>
+  <em>hello</em>
+  <strong>bye</strong>
+  <div><label for="currency">Select your favourite currency :</label>
+    <select name="currency" id="currency" >
+      <option value="dollar">Dollar</option>
+      <option value="ruppes">Ruppes</option>
+      <option value="euro">Euro</option>
+      <option value="dinam">Dinams</option>
+
+    </select>
+  </div>
+  </div>
+  <canvas id="myCanvas" width="250" height="250"></canvas>
+<script>
+  var canvas = document.getElementById('myCanvas');
+  var ctx = canvas.getContext('2d');
+
+  // Draw blue circle
+  ctx.beginPath();
+  ctx.arc(100, 50, 40, 0, 2 * Math.PI);
+  ctx.fillStyle = 'blue';
+  ctx.fill();
+  ctx.lineWidth = 2;
+  ctx.strokeStyle = 'black';
+  ctx.stroke();
+  ctx.closePath();
+
+  // Draw yellow rectangle
+  ctx.beginPath();
+  ctx.rect(50, 120, 100, 50);
+  ctx.fillStyle = 'yellow';
+  ctx.fill();
+  ctx.lineWidth = 4;
+  ctx.strokeStyle = 'green';
+  ctx.stroke();
+  ctx.closePath();
+</script>
+ <div>
+  <h3>video 1</h3>
+  <video src="1.mp4" controls autoplay loop  width="300px" height="300px"> </video>
+ </div>
+ <div>
+  <audio src="1.mp3" controls preload="none"></audio>
+ </div>
+ <div><iframe width="450" height="300" src="https://www.youtube.com/embed/2POCy4fGSTE?si=Zo9bXI5jdYgWN83t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen ></iframe></div>
+ <div><svg height="210" width="400">
+  <polygon points="200,10 250,190 150,190" style="fill:rgb(255, 16, 91);stroke:rgb(0, 255, 234);stroke-width:4" />
+</svg></div>
+</body>
+
+</html>
